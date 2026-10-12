@@ -1,0 +1,101 @@
+[
+  {
+    "name": "httpbin - GET basic",
+    "method": "GET",
+    "url": "https://httpbin.org/get?greeting=hello",
+    "headers": [],
+    "payload": "",
+    "authType": "none",
+    "authKey": ""
+  },
+  {
+    "name": "httpbin - POST JSON body",
+    "method": "POST",
+    "url": "https://httpbin.org/post",
+    "headers": [
+      { "key": "Content-Type", "value": "application/json" }
+    ],
+    "payload": "{\n  \"name\": \"Ada Lovelace\",\n  \"role\": \"Mathematician\"\n}",
+    "authType": "none",
+    "authKey": ""
+  },
+  {
+    "name": "httpbin - PUT JSON body",
+    "method": "PUT",
+    "url": "https://httpbin.org/put",
+    "headers": [
+      { "key": "Content-Type", "value": "application/json" }
+    ],
+    "payload": "{\n  \"status\": \"updated\"\n}",
+    "authType": "none",
+    "authKey": ""
+  },
+  {
+    "name": "httpbin - PATCH JSON body",
+    "method": "PATCH",
+    "url": "https://httpbin.org/patch",
+    "headers": [
+      { "key": "Content-Type", "value": "application/json" }
+    ],
+    "payload": "{\n  \"status\": \"partially updated\"\n}",
+    "authType": "none",
+    "authKey": ""
+  },
+  {
+    "name": "httpbin - DELETE",
+    "method": "DELETE",
+    "url": "https://httpbin.org/delete",
+    "headers": [],
+    "payload": "",
+    "authType": "none",
+    "authKey": ""
+  },
+  {
+    "name": "httpbin - Custom headers echo",
+    "method": "GET",
+    "url": "https://httpbin.org/headers",
+    "headers": [
+      { "key": "X-Sample-Header", "value": "PostBuddy" },
+      { "key": "X-Request-Id", "value": "sample-123" }
+    ],
+    "payload": "",
+    "authType": "none",
+    "authKey": ""
+  },
+  {
+    "name": "httpbin - Bearer auth",
+    "method": "GET",
+    "url": "https://httpbin.org/bearer",
+    "headers": [],
+    "payload": "",
+    "authType": "bearer",
+    "authKey": "sample-bearer-token"
+  },
+  {
+    "name": "httpbin - Basic auth",
+    "method": "GET",
+    "url": "https://httpbin.org/basic-auth/postman/password",
+    "headers": [],
+    "payload": "",
+    "authType": "basic",
+    "authKey": "cG9zdG1hbjpwYXNzd29yZA=="
+  },
+  {
+    "name": "httpbin - Status 404",
+    "method": "GET",
+    "url": "https://httpbin.org/status/404",
+    "headers": [],
+    "payload": "",
+    "authType": "none",
+    "authKey": ""
+  },
+  {
+    "name": "httpbin - Delayed response (2s)",
+    "method": "GET",
+    "url": "https://httpbin.org/delay/2",
+    "headers": [],
+    "payload": "",
+    "authType": "none",
+    "authKey": ""
+  }
+]

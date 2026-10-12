@@ -1,0 +1,102 @@
+{
+  "events": [
+    {
+      "title": "Team Offsite",
+      "date": "2026-08-12",
+      "color": "green",
+      "allDay": true,
+      "notes": "Annual team offsite at the lake house."
+    },
+    {
+      "title": "Dentist Appointment",
+      "date": "2026-08-20",
+      "color": "rose",
+      "allDay": false,
+      "startTime": "09:30",
+      "endTime": "10:15",
+      "notes": ""
+    },
+    {
+      "title": "Morning Standup",
+      "date": "2026-08-27",
+      "color": "blue",
+      "allDay": false,
+      "startTime": "09:00",
+      "endTime": "09:15",
+      "notes": "Daily sync with the team."
+    },
+    {
+      "title": "Project Deadline",
+      "date": "2026-08-29",
+      "color": "amber",
+      "allDay": true,
+      "notes": "Submit Q3 project deliverables."
+    },
+    {
+      "title": "Doctor Checkup",
+      "date": "2026-09-02",
+      "color": "rose",
+      "allDay": false,
+      "startTime": "14:00",
+      "endTime": "14:30",
+      "notes": ""
+    },
+    {
+      "title": "Mia's Birthday Party",
+      "date": "2026-09-05",
+      "color": "purple",
+      "allDay": true,
+      "notes": "Bring a gift and snacks."
+    },
+    {
+      "title": "Design Conference",
+      "date": "2026-09-10",
+      "color": "indigo",
+      "allDay": false,
+      "startTime": "08:30",
+      "endTime": "17:00",
+      "notes": "Annual UX design conference downtown."
+    },
+    {
+      "title": "Gym - Leg Day",
+      "date": "2026-09-14",
+      "color": "green",
+      "allDay": false,
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "notes": ""
+    },
+    {
+      "title": "Flight to Chicago",
+      "date": "2026-09-18",
+      "color": "blue",
+      "allDay": false,
+      "startTime": "07:45",
+      "endTime": "10:00",
+      "notes": "Gate closes 30 minutes before departure."
+    },
+    {
+      "title": "Wedding Anniversary",
+      "date": "2026-09-25",
+      "color": "purple",
+      "allDay": true,
+      "notes": "Dinner reservation at 7pm."
+    },
+    {
+      "title": "Rent Due",
+      "date": "2026-10-01",
+      "color": "amber",
+      "allDay": true,
+      "notes": ""
+    },
+    {
+      "title": "Book Club Meeting",
+      "date": "2026-10-05",
+      "color": "indigo",
+      "allDay": false,
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "notes": "Discussing this month's pick."
+    }
+  ]
+}

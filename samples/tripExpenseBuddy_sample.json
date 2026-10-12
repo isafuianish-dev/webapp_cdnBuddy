@@ -1,0 +1,1992 @@
+{
+  "trips": [
+    {
+      "id": "trip-1",
+      "name": "Summer Europe Trip 2026",
+      "description": "Three-week group trip across Spain, France, and Italy with the whole crew.",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-20",
+      "participants": [
+        {
+          "id": "participant-1",
+          "name": "Alice Johnson",
+          "contact": "alice.johnson@example.com"
+        },
+        {
+          "id": "participant-2",
+          "name": "Bob Martinez",
+          "contact": "bob.martinez@example.com"
+        },
+        {
+          "id": "participant-3",
+          "name": "Charlie Nguyen",
+          "contact": "charlie.nguyen@example.com"
+        },
+        {
+          "id": "participant-4",
+          "name": "Diana Kowalski",
+          "contact": "diana.kowalski@example.com"
+        },
+        {
+          "id": "participant-5",
+          "name": "Ethan Roberts",
+          "contact": "ethan.roberts@example.com"
+        }
+      ],
+      "expenses": [
+        {
+          "id": "expense-3",
+          "category": "Activities",
+          "description": "Cooking class",
+          "amount": 248.09,
+          "date": "2026-06-01",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-5",
+          "category": "Transport",
+          "description": "Taxi to airport",
+          "amount": 245.1,
+          "date": "2026-06-01",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-5",
+              "amount": 156.97
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 57.07
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 31.06
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-20",
+          "category": "Fees",
+          "description": "Visa processing fee",
+          "amount": 233.61,
+          "date": "2026-06-01",
+          "paidBy": "participant-4",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-27",
+          "category": "Stay",
+          "description": "Hotel booking",
+          "amount": 50.93,
+          "date": "2026-06-01",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-48",
+          "category": "Stay",
+          "description": "Airbnb payment",
+          "amount": 80.48,
+          "date": "2026-06-01",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-50",
+          "category": "Transport",
+          "description": "Metro day pass",
+          "amount": 44.79,
+          "date": "2026-06-01",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-53",
+          "category": "Transport",
+          "description": "Metro day pass",
+          "amount": 49.22,
+          "date": "2026-06-01",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-54",
+          "category": "Health",
+          "description": "Travel insurance top-up",
+          "amount": 165.31,
+          "date": "2026-06-01",
+          "paidBy": "participant-3",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-2",
+              "amount": 33.31
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 55.09
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 76.91
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-58",
+          "category": "Shopping",
+          "description": "Local market shopping",
+          "amount": 249.03,
+          "date": "2026-06-01",
+          "paidBy": "participant-2",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-1",
+              "amount": 73.99
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 175.04
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-69",
+          "category": "Entertainment",
+          "description": "Live music show",
+          "amount": 124.81,
+          "date": "2026-06-01",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-4",
+              "amount": 42.8
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 52.98
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 29.03
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-79",
+          "category": "Travel",
+          "description": "Airport transfer",
+          "amount": 49.07,
+          "date": "2026-06-01",
+          "paidBy": "participant-2",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-1",
+              "amount": 27.86
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 21.21
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-81",
+          "category": "Travel",
+          "description": "Flight tickets",
+          "amount": 175.65,
+          "date": "2026-06-01",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-89",
+          "category": "Stay",
+          "description": "Resort deposit",
+          "amount": 101.93,
+          "date": "2026-06-01",
+          "paidBy": "participant-4",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-1",
+              "amount": 52.21
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 49.72
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-71",
+          "category": "Activities",
+          "description": "Snorkeling trip",
+          "amount": 86.81,
+          "date": "2026-06-02",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-82",
+          "category": "Health",
+          "description": "Doctor visit",
+          "amount": 149.81,
+          "date": "2026-06-02",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-3",
+              "amount": 31.91
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 37.53
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 44.33
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 36.04
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-100",
+          "category": "Activities",
+          "description": "Hiking permit",
+          "amount": 228.37,
+          "date": "2026-06-02",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-29",
+          "category": "Travel",
+          "description": "Rental car booking",
+          "amount": 175.62,
+          "date": "2026-06-03",
+          "paidBy": "participant-4",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-1",
+              "amount": 98.26
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 77.36
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-39",
+          "category": "Fees",
+          "description": "Booking service fee",
+          "amount": 196.91,
+          "date": "2026-06-03",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-3",
+              "amount": 15.88
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 41.8
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 72.51
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 66.72
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-60",
+          "category": "Health",
+          "description": "Doctor visit",
+          "amount": 53.35,
+          "date": "2026-06-03",
+          "paidBy": "participant-4",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-6",
+          "category": "Health",
+          "description": "Doctor visit",
+          "amount": 115.6,
+          "date": "2026-06-04",
+          "paidBy": "participant-2",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-3",
+              "amount": 31.51
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 43.34
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 40.75
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-19",
+          "category": "Stay",
+          "description": "Extra night stay",
+          "amount": 144.93,
+          "date": "2026-06-04",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-40",
+          "category": "Shopping",
+          "description": "Local market shopping",
+          "amount": 232.65,
+          "date": "2026-06-04",
+          "paidBy": "participant-2",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-2",
+              "amount": 15.38
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 77.36
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 26.12
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 63.48
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 50.31
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-55",
+          "category": "Entertainment",
+          "description": "Live music show",
+          "amount": 68.44,
+          "date": "2026-06-04",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-5",
+              "amount": 16.65
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 28.26
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 6.76
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 16.77
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-57",
+          "category": "Food",
+          "description": "Lunch buffet",
+          "amount": 151.94,
+          "date": "2026-06-04",
+          "paidBy": "participant-4",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-62",
+          "category": "Shopping",
+          "description": "Souvenirs",
+          "amount": 70.58,
+          "date": "2026-06-04",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-5",
+              "amount": 11.89
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 20.5
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 38.19
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-65",
+          "category": "Travel",
+          "description": "Flight tickets",
+          "amount": 11.41,
+          "date": "2026-06-04",
+          "paidBy": "participant-5",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-1",
+              "amount": 2.35
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 3.01
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 2.76
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 3.29
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-68",
+          "category": "Entertainment",
+          "description": "Theme park tickets",
+          "amount": 55.29,
+          "date": "2026-06-04",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-3",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-31",
+          "category": "Health",
+          "description": "Vitamins",
+          "amount": 107.21,
+          "date": "2026-06-05",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-63",
+          "category": "Entertainment",
+          "description": "Live music show",
+          "amount": 143.59,
+          "date": "2026-06-05",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-72",
+          "category": "Shopping",
+          "description": "Duty free shopping",
+          "amount": 176.64,
+          "date": "2026-06-05",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-83",
+          "category": "Misc",
+          "description": "Phone charger",
+          "amount": 128.84,
+          "date": "2026-06-05",
+          "paidBy": "participant-4",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-3",
+              "amount": 24.97
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 26.98
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 22.48
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 8.78
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 45.63
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-85",
+          "category": "Food",
+          "description": "Breakfast at cafe",
+          "amount": 190.37,
+          "date": "2026-06-05",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-91",
+          "category": "Shopping",
+          "description": "Duty free shopping",
+          "amount": 176.59,
+          "date": "2026-06-05",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-2",
+            "participant-3",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-9",
+          "category": "Entertainment",
+          "description": "Nightclub entry",
+          "amount": 158.92,
+          "date": "2026-06-06",
+          "paidBy": "participant-4",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-4",
+              "amount": 68.57
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 14.27
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 59.52
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 16.56
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-17",
+          "category": "Fees",
+          "description": "Booking service fee",
+          "amount": 162.7,
+          "date": "2026-06-06",
+          "paidBy": "participant-2",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-2",
+              "amount": 71.33
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 91.37
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-25",
+          "category": "Shopping",
+          "description": "Duty free shopping",
+          "amount": 45.07,
+          "date": "2026-06-06",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-35",
+          "category": "Health",
+          "description": "Vitamins",
+          "amount": 6.99,
+          "date": "2026-06-06",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3"
+          ]
+        },
+        {
+          "id": "expense-43",
+          "category": "Misc",
+          "description": "Miscellaneous purchase",
+          "amount": 116.07,
+          "date": "2026-06-06",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-67",
+          "category": "Entertainment",
+          "description": "Live music show",
+          "amount": 222.57,
+          "date": "2026-06-06",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-92",
+          "category": "Shopping",
+          "description": "Local market shopping",
+          "amount": 103.04,
+          "date": "2026-06-06",
+          "paidBy": "participant-4",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-99",
+          "category": "Entertainment",
+          "description": "Karaoke night",
+          "amount": 234.69,
+          "date": "2026-06-06",
+          "paidBy": "participant-2",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-2",
+              "amount": 31.25
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 59.03
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 41.63
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 29.73
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 73.05
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-33",
+          "category": "Shopping",
+          "description": "Clothing purchase",
+          "amount": 131.51,
+          "date": "2026-06-07",
+          "paidBy": "participant-3",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-2",
+              "amount": 12.13
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 33.19
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 42.21
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 22.11
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 21.87
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-38",
+          "category": "Travel",
+          "description": "Flight tickets",
+          "amount": 54.06,
+          "date": "2026-06-07",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-41",
+          "category": "Travel",
+          "description": "Rental car booking",
+          "amount": 100.85,
+          "date": "2026-06-07",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3"
+          ]
+        },
+        {
+          "id": "expense-78",
+          "category": "Transport",
+          "description": "Bus tickets",
+          "amount": 129.49,
+          "date": "2026-06-07",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-13",
+          "category": "Misc",
+          "description": "Miscellaneous purchase",
+          "amount": 161.14,
+          "date": "2026-06-08",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-2",
+              "amount": 82.17
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 32.04
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 46.93
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-36",
+          "category": "Transport",
+          "description": "Taxi to airport",
+          "amount": 40.42,
+          "date": "2026-06-08",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-42",
+          "category": "Fees",
+          "description": "ATM withdrawal fee",
+          "amount": 153.46,
+          "date": "2026-06-08",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-45",
+          "category": "Shopping",
+          "description": "Souvenirs",
+          "amount": 186.55,
+          "date": "2026-06-08",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-70",
+          "category": "Activities",
+          "description": "Hiking permit",
+          "amount": 85.42,
+          "date": "2026-06-08",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-94",
+          "category": "Shopping",
+          "description": "Souvenirs",
+          "amount": 73.82,
+          "date": "2026-06-08",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-18",
+          "category": "Transport",
+          "description": "Taxi to airport",
+          "amount": 188.62,
+          "date": "2026-06-09",
+          "paidBy": "participant-4",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-3",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-51",
+          "category": "Stay",
+          "description": "Extra night stay",
+          "amount": 32.82,
+          "date": "2026-06-09",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-52",
+          "category": "Fees",
+          "description": "Booking service fee",
+          "amount": 23.66,
+          "date": "2026-06-09",
+          "paidBy": "participant-3",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-4",
+              "amount": 16.19
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 7.47
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-74",
+          "category": "Activities",
+          "description": "Cooking class",
+          "amount": 89.97,
+          "date": "2026-06-09",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-86",
+          "category": "Shopping",
+          "description": "Souvenirs",
+          "amount": 153.17,
+          "date": "2026-06-09",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-12",
+          "category": "Transport",
+          "description": "Bike rental",
+          "amount": 34.22,
+          "date": "2026-06-10",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-23",
+          "category": "Entertainment",
+          "description": "Karaoke night",
+          "amount": 240.13,
+          "date": "2026-06-10",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-64",
+          "category": "Stay",
+          "description": "Hotel booking",
+          "amount": 41.12,
+          "date": "2026-06-10",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-46",
+          "category": "Entertainment",
+          "description": "Theme park tickets",
+          "amount": 170.77,
+          "date": "2026-06-11",
+          "paidBy": "participant-3",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-1",
+              "amount": 54.45
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 53.64
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 13.84
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 48.84
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-77",
+          "category": "Entertainment",
+          "description": "Nightclub entry",
+          "amount": 121.17,
+          "date": "2026-06-11",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-80",
+          "category": "Fees",
+          "description": "ATM withdrawal fee",
+          "amount": 67.29,
+          "date": "2026-06-11",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-96",
+          "category": "Misc",
+          "description": "Phone charger",
+          "amount": 27.76,
+          "date": "2026-06-11",
+          "paidBy": "participant-4",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3"
+          ]
+        },
+        {
+          "id": "expense-1",
+          "category": "Travel",
+          "description": "Flight tickets",
+          "amount": 209.31,
+          "date": "2026-06-12",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-10",
+          "category": "Misc",
+          "description": "Phone charger",
+          "amount": 16.39,
+          "date": "2026-06-12",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-2",
+              "amount": 3.36
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 4.51
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 4.82
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 3.7
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-37",
+          "category": "Food",
+          "description": "Grocery run",
+          "amount": 28.65,
+          "date": "2026-06-12",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-98",
+          "category": "Transport",
+          "description": "Ride share",
+          "amount": 166.33,
+          "date": "2026-06-12",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-8",
+          "category": "Shopping",
+          "description": "Souvenirs",
+          "amount": 83.77,
+          "date": "2026-06-13",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-84",
+          "category": "Food",
+          "description": "Dinner at local restaurant",
+          "amount": 11.5,
+          "date": "2026-06-13",
+          "paidBy": "participant-5",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-3",
+              "amount": 3.85
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 2.95
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 2.97
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 1.73
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-88",
+          "category": "Stay",
+          "description": "Resort deposit",
+          "amount": 229.49,
+          "date": "2026-06-13",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-2",
+            "participant-3",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-93",
+          "category": "Health",
+          "description": "Pharmacy purchase",
+          "amount": 21.88,
+          "date": "2026-06-13",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-73",
+          "category": "Entertainment",
+          "description": "Movie night",
+          "amount": 102.88,
+          "date": "2026-06-14",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-76",
+          "category": "Activities",
+          "description": "Cooking class",
+          "amount": 248.59,
+          "date": "2026-06-14",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-3",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-90",
+          "category": "Stay",
+          "description": "Resort deposit",
+          "amount": 52.97,
+          "date": "2026-06-14",
+          "paidBy": "participant-5",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-3",
+              "amount": 22.89
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 30.08
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-7",
+          "category": "Stay",
+          "description": "Airbnb payment",
+          "amount": 10.69,
+          "date": "2026-06-15",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3"
+          ]
+        },
+        {
+          "id": "expense-16",
+          "category": "Transport",
+          "description": "Bike rental",
+          "amount": 238.09,
+          "date": "2026-06-15",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-24",
+          "category": "Misc",
+          "description": "Phone charger",
+          "amount": 39.28,
+          "date": "2026-06-15",
+          "paidBy": "participant-5",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-1",
+              "amount": 9.02
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 7.27
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 9.94
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 13.05
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-87",
+          "category": "Health",
+          "description": "Vitamins",
+          "amount": 129.43,
+          "date": "2026-06-15",
+          "paidBy": "participant-3",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-3",
+              "amount": 27.86
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 25.87
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 26.61
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 16.48
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 32.61
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-97",
+          "category": "Transport",
+          "description": "Ride share",
+          "amount": 36.34,
+          "date": "2026-06-15",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3"
+          ]
+        },
+        {
+          "id": "expense-30",
+          "category": "Transport",
+          "description": "Ride share",
+          "amount": 108.18,
+          "date": "2026-06-16",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-95",
+          "category": "Shopping",
+          "description": "Local market shopping",
+          "amount": 162.09,
+          "date": "2026-06-16",
+          "paidBy": "participant-5",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-1",
+              "amount": 37
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 18.61
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 56.98
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 22.67
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 26.83
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-14",
+          "category": "Travel",
+          "description": "Airport transfer",
+          "amount": 40.18,
+          "date": "2026-06-17",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-28",
+          "category": "Activities",
+          "description": "Snorkeling trip",
+          "amount": 178.61,
+          "date": "2026-06-17",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-1",
+              "amount": 34.09
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 36.07
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 24.98
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 30.84
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 52.63
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-32",
+          "category": "Shopping",
+          "description": "Duty free shopping",
+          "amount": 181.35,
+          "date": "2026-06-17",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-56",
+          "category": "Entertainment",
+          "description": "Nightclub entry",
+          "amount": 235.39,
+          "date": "2026-06-17",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-2",
+          "category": "Activities",
+          "description": "Cooking class",
+          "amount": 224.37,
+          "date": "2026-06-18",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-15",
+          "category": "Misc",
+          "description": "Tips",
+          "amount": 66.69,
+          "date": "2026-06-18",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-22",
+          "category": "Misc",
+          "description": "Miscellaneous purchase",
+          "amount": 71.16,
+          "date": "2026-06-18",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-3",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-34",
+          "category": "Food",
+          "description": "Grocery run",
+          "amount": 37.33,
+          "date": "2026-06-18",
+          "paidBy": "participant-4",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-49",
+          "category": "Shopping",
+          "description": "Gift for family",
+          "amount": 62.89,
+          "date": "2026-06-18",
+          "paidBy": "participant-2",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-75",
+          "category": "Fees",
+          "description": "Visa processing fee",
+          "amount": 182.21,
+          "date": "2026-06-18",
+          "paidBy": "participant-4",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-4",
+              "amount": 57.53
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 16.22
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 62.68
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 22.92
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 22.86
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-11",
+          "category": "Stay",
+          "description": "Airbnb payment",
+          "amount": 78.94,
+          "date": "2026-06-19",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-4",
+              "amount": 20.94
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 43.3
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 14.7
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-21",
+          "category": "Health",
+          "description": "Pharmacy purchase",
+          "amount": 61.59,
+          "date": "2026-06-19",
+          "paidBy": "participant-1",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-4",
+              "amount": 15.74
+            },
+            {
+              "participantId": "participant-3",
+              "amount": 12.32
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 8.34
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 12.57
+            },
+            {
+              "participantId": "participant-1",
+              "amount": 12.62
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-26",
+          "category": "Misc",
+          "description": "SIM card",
+          "amount": 189.85,
+          "date": "2026-06-19",
+          "paidBy": "participant-4",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-59",
+          "category": "Food",
+          "description": "Dinner at local restaurant",
+          "amount": 7.39,
+          "date": "2026-06-19",
+          "paidBy": "participant-4",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-66",
+          "category": "Misc",
+          "description": "Tips",
+          "amount": 76.09,
+          "date": "2026-06-19",
+          "paidBy": "participant-4",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-3",
+              "amount": 7.96
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 36.4
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 31.73
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-4",
+          "category": "Fees",
+          "description": "Visa processing fee",
+          "amount": 229.59,
+          "date": "2026-06-20",
+          "paidBy": "participant-2",
+          "splitType": "custom",
+          "splits": [
+            {
+              "participantId": "participant-3",
+              "amount": 41.29
+            },
+            {
+              "participantId": "participant-2",
+              "amount": 91.38
+            },
+            {
+              "participantId": "participant-4",
+              "amount": 28.55
+            },
+            {
+              "participantId": "participant-5",
+              "amount": 68.37
+            }
+          ],
+          "participantIds": null
+        },
+        {
+          "id": "expense-44",
+          "category": "Entertainment",
+          "description": "Karaoke night",
+          "amount": 243.68,
+          "date": "2026-06-20",
+          "paidBy": "participant-5",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4"
+          ]
+        },
+        {
+          "id": "expense-47",
+          "category": "Entertainment",
+          "description": "Live music show",
+          "amount": 188.74,
+          "date": "2026-06-20",
+          "paidBy": "participant-1",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        },
+        {
+          "id": "expense-61",
+          "category": "Stay",
+          "description": "Resort deposit",
+          "amount": 31.16,
+          "date": "2026-06-20",
+          "paidBy": "participant-3",
+          "splitType": "equal",
+          "splits": null,
+          "participantIds": [
+            "participant-1",
+            "participant-2",
+            "participant-3",
+            "participant-4",
+            "participant-5"
+          ]
+        }
+      ]
+    }
+  ],
+  "selectedTripId": null
+}

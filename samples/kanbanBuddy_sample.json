@@ -1,0 +1,531 @@
+{
+  "boards": [
+    {
+      "id": "board-product-launch",
+      "name": "Product Launch",
+      "createdAt": "2026-08-01",
+      "columns": [
+        { "id": "col-open", "name": "Open", "isDone": false },
+        { "id": "col-progress", "name": "In Progress", "isDone": false },
+        { "id": "col-waiting", "name": "Waiting", "isDone": false },
+        { "id": "col-done", "name": "Done", "isDone": true }
+      ],
+      "users": [
+        { "id": "user-alex", "name": "Alex Rivera" },
+        { "id": "user-jordan", "name": "Jordan Lee" },
+        { "id": "user-sam", "name": "Sam Patel" }
+      ],
+      "tasks": [
+        {
+          "id": "task-1",
+          "title": "Design landing page hero",
+          "description": "Explore 2-3 directions for the new hero section.",
+          "points": 5,
+          "priority": "low",
+          "assigneeId": "user-alex",
+          "dueDate": "2026-08-20",
+          "columnId": "col-open",
+          "order": 0,
+          "subtasks": [
+            { "id": "task-1-sub-1", "text": "Wireframe", "done": true },
+            { "id": "task-1-sub-2", "text": "Visual design", "done": false },
+            { "id": "task-1-sub-3", "text": "Review with team", "done": false }
+          ],
+          "history": [
+            { "id": "task-1-hist-1", "type": "created", "text": "Task created", "at": 1785574800000 },
+            { "id": "task-1-hist-2", "type": "assignee", "text": "Assigned to Alex Rivera", "at": 1785575100000 },
+            { "id": "task-1-hist-3", "type": "priority", "text": "Priority changed from None to Low", "at": 1785681000000 },
+            { "id": "task-1-hist-4", "type": "note", "text": "Went with the gradient direction from the moodboard — starting wireframes today.", "at": 1785755700000 }
+          ]
+        },
+        {
+          "id": "task-2",
+          "title": "Set up analytics tracking",
+          "description": "",
+          "points": 3,
+          "assigneeId": null,
+          "dueDate": "",
+          "columnId": "col-open",
+          "order": 1,
+          "subtasks": []
+        },
+        {
+          "id": "task-3",
+          "title": "Implement auth flow",
+          "description": "Email/password + Google sign-in.",
+          "points": 8,
+          "priority": "high",
+          "assigneeId": "user-jordan",
+          "dueDate": "2026-08-18",
+          "columnId": "col-progress",
+          "order": 0,
+          "subtasks": [
+            { "id": "task-3-sub-1", "text": "API endpoints", "done": true },
+            { "id": "task-3-sub-2", "text": "Frontend forms", "done": false }
+          ],
+          "history": [
+            { "id": "task-3-hist-1", "type": "created", "text": "Task created", "at": 1785232800000 },
+            { "id": "task-3-hist-2", "type": "priority", "text": "Priority changed from None to High", "at": 1785313200000 },
+            { "id": "task-3-hist-3", "type": "column", "text": "Moved from \"Open\" to \"In Progress\"", "at": 1785948300000 },
+            { "id": "task-3-hist-4", "type": "note", "text": "Google sign-in is blocked on getting OAuth credentials approved — following up with IT.", "at": 1786007400000 }
+          ]
+        },
+        {
+          "id": "task-4",
+          "title": "Write onboarding emails",
+          "description": "",
+          "points": 2,
+          "assigneeId": "user-sam",
+          "dueDate": "",
+          "columnId": "col-progress",
+          "order": 1,
+          "subtasks": []
+        },
+        {
+          "id": "task-5",
+          "title": "Vendor contract review",
+          "description": "Legal needs to sign off before we can proceed.",
+          "points": 1,
+          "priority": "medium",
+          "assigneeId": "user-alex",
+          "dueDate": "2026-08-15",
+          "columnId": "col-waiting",
+          "order": 0,
+          "subtasks": []
+        },
+        {
+          "id": "task-6",
+          "title": "Kickoff meeting notes",
+          "description": "",
+          "points": 1,
+          "assigneeId": "user-jordan",
+          "dueDate": "",
+          "columnId": "col-done",
+          "order": 0,
+          "subtasks": [],
+          "history": [
+            { "id": "task-6-hist-1", "type": "created", "text": "Task created", "at": 1784538000000 },
+            { "id": "task-6-hist-2", "type": "assignee", "text": "Assigned to Jordan Lee", "at": 1784538600000 },
+            { "id": "task-6-hist-3", "type": "column", "text": "Moved from \"Open\" to \"In Progress\"", "at": 1784984400000 },
+            { "id": "task-6-hist-4", "type": "column", "text": "Moved from \"In Progress\" to \"Done\"", "at": 1785432600000 }
+          ]
+        },
+        {
+          "id": "task-7",
+          "title": "Competitive research",
+          "description": "",
+          "points": 3,
+          "assigneeId": "user-sam",
+          "dueDate": "",
+          "columnId": "col-done",
+          "order": 1,
+          "subtasks": [
+            { "id": "task-7-sub-1", "text": "Gather data", "done": true },
+            { "id": "task-7-sub-2", "text": "Summarize", "done": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "board-engineering-backlog",
+      "name": "Engineering Backlog",
+      "createdAt": "2026-07-15",
+      "columns": [
+        { "id": "col-eng-open", "name": "Open", "isDone": false },
+        { "id": "col-eng-progress", "name": "In Progress", "isDone": false },
+        { "id": "col-eng-waiting", "name": "Waiting", "isDone": false },
+        { "id": "col-eng-done", "name": "Done", "isDone": true }
+      ],
+      "users": [
+        { "id": "user-eng-1", "name": "Maya Chen" },
+        { "id": "user-eng-2", "name": "Diego Fernandez" },
+        { "id": "user-eng-3", "name": "Priya Nair" },
+        { "id": "user-eng-4", "name": "Liam O'Connor" },
+        { "id": "user-eng-5", "name": "Fatima Al-Sayed" },
+        { "id": "user-eng-6", "name": "Noah Kim" },
+        { "id": "user-eng-7", "name": "Isabella Rossi" },
+        { "id": "user-eng-8", "name": "Ethan Walker" },
+        { "id": "user-eng-9", "name": "Aisha Bello" },
+        { "id": "user-eng-10", "name": "Lucas Meyer" }
+      ],
+      "tasks": [
+        {
+          "id": "task-eng-1",
+          "title": "Set up CI/CD pipeline",
+          "description": "",
+          "points": 5,
+          "assigneeId": "user-eng-1",
+          "dueDate": "",
+          "columnId": "col-eng-open",
+          "order": 0,
+          "subtasks": [
+            { "id": "task-eng-1-sub-1", "text": "Configure GitHub Actions", "done": true },
+            { "id": "task-eng-1-sub-2", "text": "Add build cache", "done": true },
+            { "id": "task-eng-1-sub-3", "text": "Add deploy step", "done": false }
+          ]
+        },
+        {
+          "id": "task-eng-2",
+          "title": "Migrate database to PostgreSQL 16",
+          "description": "",
+          "points": 8,
+          "priority": "high",
+          "assigneeId": "user-eng-2",
+          "dueDate": "",
+          "columnId": "col-eng-open",
+          "order": 1,
+          "subtasks": [
+            { "id": "task-eng-2-sub-1", "text": "Backup current DB", "done": true },
+            { "id": "task-eng-2-sub-2", "text": "Write migration scripts", "done": false },
+            { "id": "task-eng-2-sub-3", "text": "Test on staging", "done": false }
+          ],
+          "history": [
+            { "id": "task-eng-2-hist-1", "type": "created", "text": "Task created", "at": 1784106000000 },
+            { "id": "task-eng-2-hist-2", "type": "assignee", "text": "Assigned to Diego Fernandez", "at": 1784106300000 },
+            { "id": "task-eng-2-hist-3", "type": "priority", "text": "Priority changed from None to High", "at": 1784196000000 },
+            { "id": "task-eng-2-hist-4", "type": "note", "text": "Confirmed with DBA team — migration window is scheduled for next Saturday maintenance.", "at": 1784384400000 }
+          ]
+        },
+        {
+          "id": "task-eng-3",
+          "title": "Design REST API v2 spec",
+          "description": "",
+          "points": 3,
+          "assigneeId": "user-eng-3",
+          "dueDate": "",
+          "columnId": "col-eng-open",
+          "order": 2,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-4",
+          "title": "Investigate memory leak in worker service",
+          "description": "",
+          "points": 5,
+          "priority": "high",
+          "assigneeId": null,
+          "dueDate": "2026-08-10",
+          "columnId": "col-eng-open",
+          "order": 3,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-5",
+          "title": "Add rate limiting to public API",
+          "description": "",
+          "points": 3,
+          "assigneeId": "user-eng-4",
+          "dueDate": "",
+          "columnId": "col-eng-open",
+          "order": 4,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-6",
+          "title": "Upgrade Node.js to LTS 22",
+          "description": "",
+          "points": 2,
+          "priority": "low",
+          "assigneeId": "user-eng-6",
+          "dueDate": "",
+          "columnId": "col-eng-open",
+          "order": 5,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-7",
+          "title": "Write onboarding docs for new hires",
+          "description": "",
+          "points": 2,
+          "assigneeId": "user-eng-7",
+          "dueDate": "",
+          "columnId": "col-eng-open",
+          "order": 6,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-8",
+          "title": "Evaluate feature flag providers",
+          "description": "",
+          "points": 1,
+          "assigneeId": null,
+          "dueDate": "",
+          "columnId": "col-eng-open",
+          "order": 7,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-9",
+          "title": "Refactor authentication middleware",
+          "description": "",
+          "points": 8,
+          "priority": "high",
+          "assigneeId": "user-eng-8",
+          "dueDate": "2026-08-19",
+          "columnId": "col-eng-progress",
+          "order": 0,
+          "subtasks": [
+            { "id": "task-eng-9-sub-1", "text": "Extract JWT validation", "done": true },
+            { "id": "task-eng-9-sub-2", "text": "Add refresh token support", "done": false }
+          ],
+          "history": [
+            { "id": "task-eng-9-hist-1", "type": "created", "text": "Task created", "at": 1784710800000 },
+            { "id": "task-eng-9-hist-2", "type": "column", "text": "Moved from \"Open\" to \"In Progress\"", "at": 1784890800000 },
+            { "id": "task-eng-9-hist-3", "type": "priority", "text": "Priority changed from Medium to High", "at": 1784971800000 },
+            { "id": "task-eng-9-hist-4", "type": "note", "text": "JWT extraction is done and reviewed. Starting refresh token support next.", "at": 1785078000000 }
+          ]
+        },
+        {
+          "id": "task-eng-10",
+          "title": "Build notification service",
+          "description": "",
+          "points": 8,
+          "assigneeId": "user-eng-9",
+          "dueDate": "",
+          "columnId": "col-eng-progress",
+          "order": 1,
+          "subtasks": [
+            { "id": "task-eng-10-sub-1", "text": "Design schema", "done": true },
+            { "id": "task-eng-10-sub-2", "text": "Email provider integration", "done": true },
+            { "id": "task-eng-10-sub-3", "text": "Push provider integration", "done": false },
+            { "id": "task-eng-10-sub-4", "text": "Write tests", "done": false }
+          ]
+        },
+        {
+          "id": "task-eng-11",
+          "title": "Implement dark mode for admin panel",
+          "description": "",
+          "points": 3,
+          "assigneeId": "user-eng-10",
+          "dueDate": "",
+          "columnId": "col-eng-progress",
+          "order": 2,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-12",
+          "title": "Add end-to-end tests for checkout flow",
+          "description": "",
+          "points": 5,
+          "assigneeId": "user-eng-1",
+          "dueDate": "2026-08-25",
+          "columnId": "col-eng-progress",
+          "order": 3,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-13",
+          "title": "Optimize image upload pipeline",
+          "description": "",
+          "points": 5,
+          "assigneeId": "user-eng-2",
+          "dueDate": "",
+          "columnId": "col-eng-progress",
+          "order": 4,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-14",
+          "title": "Set up centralized logging (ELK)",
+          "description": "",
+          "points": 5,
+          "assigneeId": "user-eng-5",
+          "dueDate": "",
+          "columnId": "col-eng-progress",
+          "order": 5,
+          "subtasks": [
+            { "id": "task-eng-14-sub-1", "text": "Provision Elasticsearch", "done": true },
+            { "id": "task-eng-14-sub-2", "text": "Configure Logstash", "done": false }
+          ]
+        },
+        {
+          "id": "task-eng-15",
+          "title": "Create internal CLI tool for deploys",
+          "description": "",
+          "points": 3,
+          "assigneeId": "user-eng-3",
+          "dueDate": "",
+          "columnId": "col-eng-progress",
+          "order": 6,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-16",
+          "title": "Reduce bundle size for web client",
+          "description": "",
+          "points": 2,
+          "assigneeId": "user-eng-6",
+          "dueDate": "",
+          "columnId": "col-eng-progress",
+          "order": 7,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-17",
+          "title": "Security review for payments service",
+          "description": "Waiting on external auditor availability.",
+          "points": 3,
+          "priority": "high",
+          "assigneeId": "user-eng-8",
+          "dueDate": "2026-08-14",
+          "columnId": "col-eng-waiting",
+          "order": 0,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-18",
+          "title": "Legal review of new privacy policy",
+          "description": "",
+          "points": 1,
+          "assigneeId": null,
+          "dueDate": "",
+          "columnId": "col-eng-waiting",
+          "order": 1,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-19",
+          "title": "Vendor API access approval",
+          "description": "",
+          "points": 1,
+          "assigneeId": "user-eng-7",
+          "dueDate": "",
+          "columnId": "col-eng-waiting",
+          "order": 2,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-20",
+          "title": "Design sign-off for settings redesign",
+          "description": "",
+          "points": 2,
+          "assigneeId": "user-eng-10",
+          "dueDate": "2026-08-22",
+          "columnId": "col-eng-waiting",
+          "order": 3,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-21",
+          "title": "Infra budget approval for new cluster",
+          "description": "",
+          "points": 1,
+          "assigneeId": "user-eng-1",
+          "dueDate": "",
+          "columnId": "col-eng-waiting",
+          "order": 4,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-22",
+          "title": "Wait for third-party SDK v3 release",
+          "description": "",
+          "points": 2,
+          "assigneeId": "user-eng-9",
+          "dueDate": "",
+          "columnId": "col-eng-waiting",
+          "order": 5,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-23",
+          "title": "Set up staging environment",
+          "description": "",
+          "points": 3,
+          "assigneeId": "user-eng-2",
+          "dueDate": "",
+          "columnId": "col-eng-done",
+          "order": 0,
+          "subtasks": [
+            { "id": "task-eng-23-sub-1", "text": "Provision servers", "done": true },
+            { "id": "task-eng-23-sub-2", "text": "Configure DNS", "done": true }
+          ]
+        },
+        {
+          "id": "task-eng-24",
+          "title": "Write API documentation",
+          "description": "",
+          "points": 2,
+          "assigneeId": "user-eng-3",
+          "dueDate": "",
+          "columnId": "col-eng-done",
+          "order": 1,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-25",
+          "title": "Fix flaky test suite",
+          "description": "",
+          "points": 5,
+          "assigneeId": "user-eng-5",
+          "dueDate": "",
+          "columnId": "col-eng-done",
+          "order": 2,
+          "subtasks": [
+            { "id": "task-eng-25-sub-1", "text": "Identify flaky tests", "done": true },
+            { "id": "task-eng-25-sub-2", "text": "Add retries", "done": true },
+            { "id": "task-eng-25-sub-3", "text": "Fix root causes", "done": true }
+          ]
+        },
+        {
+          "id": "task-eng-26",
+          "title": "Add health check endpoints",
+          "description": "",
+          "points": 1,
+          "assigneeId": "user-eng-6",
+          "dueDate": "",
+          "columnId": "col-eng-done",
+          "order": 3,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-27",
+          "title": "Set up error tracking (Sentry)",
+          "description": "",
+          "points": 2,
+          "assigneeId": "user-eng-8",
+          "dueDate": "",
+          "columnId": "col-eng-done",
+          "order": 4,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-28",
+          "title": "Implement password reset flow",
+          "description": "",
+          "points": 3,
+          "assigneeId": "user-eng-4",
+          "dueDate": "",
+          "columnId": "col-eng-done",
+          "order": 5,
+          "subtasks": [
+            { "id": "task-eng-28-sub-1", "text": "Email template", "done": true },
+            { "id": "task-eng-28-sub-2", "text": "Token expiry logic", "done": true }
+          ]
+        },
+        {
+          "id": "task-eng-29",
+          "title": "Add pagination to admin tables",
+          "description": "",
+          "points": 2,
+          "assigneeId": "user-eng-7",
+          "dueDate": "",
+          "columnId": "col-eng-done",
+          "order": 6,
+          "subtasks": []
+        },
+        {
+          "id": "task-eng-30",
+          "title": "Clean up unused dependencies",
+          "description": "",
+          "points": 1,
+          "assigneeId": "user-eng-10",
+          "dueDate": "",
+          "columnId": "col-eng-done",
+          "order": 7,
+          "subtasks": []
+        }
+      ]
+    }
+  ]
+}

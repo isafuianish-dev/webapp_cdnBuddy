@@ -1,0 +1,25 @@
+{
+  "notes": [
+    {
+      "id": "sample-note-welcome",
+      "title": "Welcome to Note Buddy",
+      "body": "# Welcome to Note Buddy\n\nNote Buddy is a lightweight **Markdown** note-taking app. Everything is saved locally in your browser.\n\n## Features\n\n- Write in Markdown with a live *preview*\n- Use the toolbar or shortcuts like `Ctrl+B` for bold\n- Link notes together with `[[` autocomplete\n- Export your notes as JSON any time\n\n> Try switching to Preview mode with the button in the top right.\n\nCheck out [Project Ideas](#note-sample-note-ideas) for an example of a note link.",
+      "createdAt": 1700000001000,
+      "updatedAt": 1700000001000
+    },
+    {
+      "id": "sample-note-ideas",
+      "title": "Project Ideas",
+      "body": "# Project Ideas\n\nA running list of things worth exploring.\n\n1. Build a habit tracker\n2. Try a weekend recipe from [Recipe Box](#note-sample-note-recipes)\n3. Learn a new keyboard shortcut every week\n\n---\n\nSee also: [Welcome to Note Buddy](#note-sample-note-welcome)",
+      "createdAt": 1700000002000,
+      "updatedAt": 1700000002000
+    },
+    {
+      "id": "sample-note-recipes",
+      "title": "Recipe Box",
+      "body": "# Recipe Box\n\n## Simple Pasta\n\n- 200g pasta\n- 2 cloves garlic\n- Olive oil\n- Chili flakes\n\n```\nBoil pasta, saute garlic in oil, toss together, add chili flakes.\n```\n\n> Add parmesan to taste.",
+      "createdAt": 1700000003000,
+      "updatedAt": 1700000003000
+    }
+  ]
+}

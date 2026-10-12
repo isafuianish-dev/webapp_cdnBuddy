@@ -1,0 +1,128 @@
+{
+  "lists": [
+    { "id": "sample-list-work", "name": "Work", "createdAt": 1700000000000 },
+    { "id": "sample-list-personal", "name": "Personal", "createdAt": 1700000100000 },
+    { "id": "sample-list-home", "name": "Home", "createdAt": 1700000200000 }
+  ],
+  "todos": [
+    {
+      "id": "sample-todo-1",
+      "listId": "sample-list-work",
+      "title": "Finish Q3 budget review",
+      "notes": "Double-check marketing spend numbers before sending to finance.",
+      "priority": "high",
+      "dueDate": "2025-01-15",
+      "done": false,
+      "subtasks": [
+        { "id": "sample-sub-1", "text": "Pull latest spend report", "done": true },
+        { "id": "sample-sub-2", "text": "Reconcile with finance sheet", "done": false },
+        { "id": "sample-sub-3", "text": "Send summary to manager", "done": false }
+      ],
+      "createdAt": 1700000001000,
+      "updatedAt": 1700000001000
+    },
+    {
+      "id": "sample-todo-2",
+      "listId": "sample-list-work",
+      "title": "Prep slides for team standup",
+      "notes": "",
+      "priority": "medium",
+      "dueDate": "2027-06-01",
+      "done": false,
+      "subtasks": [],
+      "createdAt": 1700000002000,
+      "updatedAt": 1700000002000
+    },
+    {
+      "id": "sample-todo-3",
+      "listId": "sample-list-work",
+      "title": "Reply to client onboarding email",
+      "notes": "Confirm kickoff date and share the shared drive link.",
+      "priority": "low",
+      "dueDate": "",
+      "done": true,
+      "subtasks": [],
+      "createdAt": 1700000003000,
+      "updatedAt": 1700000103000
+    },
+    {
+      "id": "sample-todo-4",
+      "listId": "sample-list-personal",
+      "title": "Book dentist appointment",
+      "notes": "",
+      "priority": "medium",
+      "dueDate": "2025-02-10",
+      "done": false,
+      "subtasks": [],
+      "createdAt": 1700000004000,
+      "updatedAt": 1700000004000
+    },
+    {
+      "id": "sample-todo-5",
+      "listId": "sample-list-personal",
+      "title": "Plan weekend trip",
+      "notes": "Check train times and book a place to stay.",
+      "priority": "low",
+      "dueDate": "2027-07-20",
+      "done": false,
+      "subtasks": [
+        { "id": "sample-sub-4", "text": "Compare hotel prices", "done": true },
+        { "id": "sample-sub-5", "text": "Book train tickets", "done": false }
+      ],
+      "createdAt": 1700000005000,
+      "updatedAt": 1700000005000
+    },
+    {
+      "id": "sample-todo-6",
+      "listId": "sample-list-personal",
+      "title": "Renew gym membership",
+      "notes": "",
+      "priority": "low",
+      "dueDate": "",
+      "done": true,
+      "subtasks": [],
+      "createdAt": 1700000006000,
+      "updatedAt": 1700000106000
+    },
+    {
+      "id": "sample-todo-7",
+      "listId": "sample-list-home",
+      "title": "Fix leaking kitchen faucet",
+      "notes": "Need to buy a replacement washer from the hardware store first.",
+      "priority": "high",
+      "dueDate": "2025-03-05",
+      "done": false,
+      "subtasks": [
+        { "id": "sample-sub-6", "text": "Buy replacement washer", "done": false },
+        { "id": "sample-sub-7", "text": "Shut off water supply", "done": false },
+        { "id": "sample-sub-8", "text": "Replace and test", "done": false }
+      ],
+      "createdAt": 1700000007000,
+      "updatedAt": 1700000007000
+    },
+    {
+      "id": "sample-todo-8",
+      "listId": "sample-list-home",
+      "title": "Grocery run",
+      "notes": "Milk, eggs, bread, coffee, dish soap.",
+      "priority": "medium",
+      "dueDate": "2027-08-01",
+      "done": false,
+      "subtasks": [],
+      "createdAt": 1700000008000,
+      "updatedAt": 1700000008000
+    },
+    {
+      "id": "sample-todo-9",
+      "listId": "sample-list-home",
+      "title": "Water the plants",
+      "notes": "",
+      "priority": "low",
+      "dueDate": "",
+      "done": true,
+      "subtasks": [],
+      "createdAt": 1700000009000,
+      "updatedAt": 1700000109000
+    }
+  ]
+}

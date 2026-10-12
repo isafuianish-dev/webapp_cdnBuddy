@@ -1,0 +1,713 @@
+{
+  "books": [
+    {
+      "id": "book-ksh",
+      "name": "KSH Scripts",
+      "createdAt": 1781822965025
+    },
+    {
+      "id": "book-sql",
+      "name": "SQL",
+      "createdAt": 1782686965025
+    },
+    {
+      "id": "book-python",
+      "name": "Python",
+      "createdAt": 1783550965025
+    }
+  ],
+  "snippets": [
+    {
+      "id": "ksh-0",
+      "bookId": "book-ksh",
+      "title": "Function to check user status",
+      "language": "KSH",
+      "code": "function check_user_status\n{\n    typeset user_id=$1\n    print \"Checking status for user id: ${user_id}\"\n}",
+      "notes": "Copied from the internal runbook.",
+      "tags": [
+        "function"
+      ],
+      "pinned": true,
+      "archived": false,
+      "createdAt": 1777330165025,
+      "updatedAt": 1777675765025
+    },
+    {
+      "id": "ksh-1",
+      "bookId": "book-ksh",
+      "title": "Count active orders with integer arithmetic",
+      "language": "KSH",
+      "code": "typeset -i count=0\nfor status in $(get_order_statuses); do\n    if [[ \"$status\" == \"active\" ]]; then\n        (( count += 1 ))\n    fi\ndone\nprint \"Active orders: $count\"",
+      "notes": "",
+      "tags": [
+        "typeset",
+        "arithmetic"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1786402165025,
+      "updatedAt": 1787698165025
+    },
+    {
+      "id": "ksh-2",
+      "bookId": "book-ksh",
+      "title": "Case statement for product status",
+      "language": "KSH",
+      "code": "case \"$product_status\" in\n    active)   print \"Product is active\" ;;\n    pending)  print \"Product is pending\" ;;\n    *)        print \"Unknown status\" ;;\nesac",
+      "notes": "",
+      "tags": [
+        "case"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1777070965025,
+      "updatedAt": 1778194165025
+    },
+    {
+      "id": "ksh-3",
+      "bookId": "book-ksh",
+      "title": "Read invoice records from a file",
+      "language": "KSH",
+      "code": "while read -r line; do\n    print \"Processing invoice: $line\"\ndone < invoices.txt",
+      "notes": "",
+      "tags": [
+        "while-read",
+        "file-io"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1761950965025,
+      "updatedAt": 1763333365025
+    },
+    {
+      "id": "ksh-4",
+      "bookId": "book-ksh",
+      "title": "Parse options for the customer script",
+      "language": "KSH",
+      "code": "while getopts \"i:s:\" opt; do\n    case $opt in\n        i) customer_id=$OPTARG ;;\n        s) customer_status=$OPTARG ;;\n        *) print \"Usage: $0 -i id -s status\"; exit 1 ;;\n    esac\ndone",
+      "notes": "Sanitize any user-supplied input before running this.",
+      "tags": [
+        "getopts"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1772146165025,
+      "updatedAt": 1773182965025
+    },
+    {
+      "id": "ksh-5",
+      "bookId": "book-ksh",
+      "title": "Store employee ids in an array",
+      "language": "KSH",
+      "code": "set -A employee_ids 101 102 103\nfor id in ${employee_ids[@]}; do\n    print \"Employee id: $id\"\ndone",
+      "notes": "",
+      "tags": [
+        "array"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1769899765025,
+      "updatedAt": 1771368565025
+    },
+    {
+      "id": "ksh-6",
+      "bookId": "book-ksh",
+      "title": "Clean up temp files for inventory export",
+      "language": "KSH",
+      "code": "tmpfile=$(mktemp)\ntrap 'rm -f \"$tmpfile\"' EXIT\nexport_inventorys > \"$tmpfile\"",
+      "notes": "",
+      "tags": [
+        "trap"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1783378165025,
+      "updatedAt": 1784242165025
+    },
+    {
+      "id": "ksh-7",
+      "bookId": "book-ksh",
+      "title": "Generate a payment report with a heredoc",
+      "language": "KSH",
+      "code": "cat <<EOF > payment_report.txt\nPayment Report\nGenerated: $(date)\nEOF",
+      "notes": "",
+      "tags": [
+        "heredoc"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1778107765025,
+      "updatedAt": 1778366965025
+    },
+    {
+      "id": "ksh-8",
+      "bookId": "book-ksh",
+      "title": "Strip file extension from ticket filename",
+      "language": "KSH",
+      "code": "ticket_file=\"tickets_2024.csv\"\nbase=\"${ticket_file%.csv}\"\nprint \"Base name: $base\"",
+      "notes": "Copied from the internal runbook.",
+      "tags": [
+        "string-manipulation"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1777675765025,
+      "updatedAt": 1778712565025
+    },
+    {
+      "id": "ksh-9",
+      "bookId": "book-ksh",
+      "title": "Validate session id is numeric",
+      "language": "KSH",
+      "code": "if [[ \"$session_id\" == +([0-9]) ]]; then\n    print \"Valid session id\"\nelse\n    print \"Invalid session id\" >&2\n    exit 1\nfi",
+      "notes": "",
+      "tags": [
+        "conditional"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1783896565025,
+      "updatedAt": 1785019765025
+    },
+    {
+      "id": "ksh-10",
+      "bookId": "book-ksh",
+      "title": "Look up a log name by id",
+      "language": "KSH",
+      "code": "function log_name_by_id\n{\n    typeset id=$1\n    grep \"^$id,\" logs.db | cut -d, -f2\n}\n\nname=$(log_name_by_id 42)",
+      "notes": "",
+      "tags": [
+        "function"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1781822965025,
+      "updatedAt": 1782946165025
+    },
+    {
+      "id": "ksh-11",
+      "bookId": "book-ksh",
+      "title": "Archive report export files",
+      "language": "KSH",
+      "code": "for f in reports_*.csv; do\n    gzip \"$f\"\ndone",
+      "notes": "",
+      "tags": [
+        "for-loop"
+      ],
+      "pinned": false,
+      "archived": true,
+      "createdAt": 1763851765025,
+      "updatedAt": 1765493365025
+    },
+    {
+      "id": "sql-0",
+      "bookId": "book-sql",
+      "title": "Select all users",
+      "language": "SQL",
+      "code": "SELECT * FROM users;",
+      "notes": "Copied from the internal runbook.",
+      "tags": [
+        "select",
+        "basics"
+      ],
+      "pinned": true,
+      "archived": false,
+      "createdAt": 1783118965025,
+      "updatedAt": 1784155765025
+    },
+    {
+      "id": "sql-1",
+      "bookId": "book-sql",
+      "title": "Select order by id",
+      "language": "SQL",
+      "code": "SELECT * FROM orders WHERE id = ?;",
+      "notes": "",
+      "tags": [
+        "select"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1781045365025,
+      "updatedAt": 1782686965025
+    },
+    {
+      "id": "sql-2",
+      "bookId": "book-sql",
+      "title": "Insert a new product",
+      "language": "SQL",
+      "code": "INSERT INTO products (name, created_at)\nVALUES (?, NOW());",
+      "notes": "",
+      "tags": [
+        "insert"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1763592565025,
+      "updatedAt": 1764715765025
+    },
+    {
+      "id": "sql-3",
+      "bookId": "book-sql",
+      "title": "Update invoice status",
+      "language": "SQL",
+      "code": "UPDATE invoices SET status = 'active' WHERE id = ?;",
+      "notes": "",
+      "tags": [
+        "update"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1779835765025,
+      "updatedAt": 1779835765025
+    },
+    {
+      "id": "sql-4",
+      "bookId": "book-sql",
+      "title": "Delete customer by id",
+      "language": "SQL",
+      "code": "DELETE FROM customers WHERE id = ?;",
+      "notes": "Sanitize any user-supplied input before running this.",
+      "tags": [
+        "delete"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1770763765025,
+      "updatedAt": 1771973365025
+    },
+    {
+      "id": "sql-5",
+      "bookId": "book-sql",
+      "title": "Count active employees",
+      "language": "SQL",
+      "code": "SELECT COUNT(*) AS total\nFROM employees\nWHERE status = 'active';",
+      "notes": "",
+      "tags": [
+        "aggregate"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1768171765025,
+      "updatedAt": 1768862965025
+    },
+    {
+      "id": "sql-6",
+      "bookId": "book-sql",
+      "title": "Group inventorys by status",
+      "language": "SQL",
+      "code": "SELECT status, COUNT(*) AS total\nFROM inventorys\nGROUP BY status\nORDER BY total DESC;",
+      "notes": "",
+      "tags": [
+        "aggregate",
+        "group-by"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1774910965025,
+      "updatedAt": 1775256565025
+    },
+    {
+      "id": "sql-7",
+      "bookId": "book-sql",
+      "title": "Join payments with related table",
+      "language": "SQL",
+      "code": "SELECT a.*, b.label\nFROM payments a\nJOIN payment_types b ON b.id = a.type_id\nWHERE a.status = 'active';",
+      "notes": "",
+      "tags": [
+        "join"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1775429365025,
+      "updatedAt": 1775861365025
+    },
+    {
+      "id": "sql-8",
+      "bookId": "book-sql",
+      "title": "Top 10 most recent tickets",
+      "language": "SQL",
+      "code": "SELECT *\nFROM tickets\nORDER BY created_at DESC\nLIMIT 10;",
+      "notes": "Copied from the internal runbook.",
+      "tags": [
+        "select",
+        "sort"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1778453365025,
+      "updatedAt": 1778885365025
+    },
+    {
+      "id": "sql-9",
+      "bookId": "book-sql",
+      "title": "Find duplicate session records",
+      "language": "SQL",
+      "code": "SELECT name, COUNT(*)\nFROM sessions\nGROUP BY name\nHAVING COUNT(*) > 1;",
+      "notes": "",
+      "tags": [
+        "data-cleanup"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1762642165025,
+      "updatedAt": 1763333365025
+    },
+    {
+      "id": "sql-10",
+      "bookId": "book-sql",
+      "title": "Add a column to logs",
+      "language": "SQL",
+      "code": "ALTER TABLE logs\nADD COLUMN notes TEXT;",
+      "notes": "",
+      "tags": [
+        "ddl",
+        "alter-table"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1781477365025,
+      "updatedAt": 1782427765025
+    },
+    {
+      "id": "sql-11",
+      "bookId": "book-sql",
+      "title": "Create index on report status",
+      "language": "SQL",
+      "code": "CREATE INDEX idx_report_status\nON reports(status);",
+      "notes": "",
+      "tags": [
+        "ddl",
+        "index"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1757371765025,
+      "updatedAt": 1759013365025
+    },
+    {
+      "id": "sql-12",
+      "bookId": "book-sql",
+      "title": "Create accounts table",
+      "language": "SQL",
+      "code": "CREATE TABLE accounts (\n  id SERIAL PRIMARY KEY,\n  name VARCHAR(255) NOT NULL,\n  status VARCHAR(50) DEFAULT 'active',\n  created_at TIMESTAMP DEFAULT NOW()\n);",
+      "notes": "Sanitize any user-supplied input before running this.",
+      "tags": [
+        "ddl",
+        "create-table"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1778539765025,
+      "updatedAt": 1779317365025
+    },
+    {
+      "id": "sql-13",
+      "bookId": "book-sql",
+      "title": "Upsert a transaction record",
+      "language": "SQL",
+      "code": "INSERT INTO transactions (id, name, status)\nVALUES (?, ?, ?)\nON CONFLICT (id) DO UPDATE\nSET name = EXCLUDED.name, status = EXCLUDED.status;",
+      "notes": "",
+      "tags": [
+        "insert",
+        "upsert"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1774738165025,
+      "updatedAt": 1774738165025
+    },
+    {
+      "id": "sql-14",
+      "bookId": "book-sql",
+      "title": "Soft delete a subscription",
+      "language": "SQL",
+      "code": "UPDATE subscriptions\nSET deleted_at = NOW()\nWHERE id = ?;",
+      "notes": "",
+      "tags": [
+        "update",
+        "soft-delete"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1779403765025,
+      "updatedAt": 1779403765025
+    },
+    {
+      "id": "sql-15",
+      "bookId": "book-sql",
+      "title": "Messages created in the last 30 days",
+      "language": "SQL",
+      "code": "SELECT *\nFROM messages\nWHERE created_at >= NOW() - INTERVAL '30 days';",
+      "notes": "",
+      "tags": [
+        "date",
+        "filter"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1763678965025,
+      "updatedAt": 1765234165025
+    },
+    {
+      "id": "sql-16",
+      "bookId": "book-sql",
+      "title": "Documents with above-average amount",
+      "language": "SQL",
+      "code": "SELECT *\nFROM documents\nWHERE amount > (SELECT AVG(amount) FROM documents);",
+      "notes": "Copied from the internal runbook.",
+      "tags": [
+        "subquery"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1783118965025,
+      "updatedAt": 1783550965025
+    },
+    {
+      "id": "sql-17",
+      "bookId": "book-sql",
+      "title": "Rank backups within each status",
+      "language": "SQL",
+      "code": "SELECT id, status,\n  ROW_NUMBER() OVER (PARTITION BY status ORDER BY created_at DESC) AS rn\nFROM backups;",
+      "notes": "",
+      "tags": [
+        "window-function"
+      ],
+      "pinned": false,
+      "archived": true,
+      "createdAt": 1759358965025,
+      "updatedAt": 1760827765025
+    },
+    {
+      "id": "python-0",
+      "bookId": "book-python",
+      "title": "Filter active users",
+      "language": "Python",
+      "code": "active_users = [x for x in users if x.get('status') == 'active']",
+      "notes": "Copied from the internal runbook.",
+      "tags": [
+        "list-comprehension"
+      ],
+      "pinned": true,
+      "archived": false,
+      "createdAt": 1767998965025,
+      "updatedAt": 1769554165025
+    },
+    {
+      "id": "python-1",
+      "bookId": "book-python",
+      "title": "Order dataclass",
+      "language": "Python",
+      "code": "from dataclasses import dataclass\n\n@dataclass\nclass Order:\n    id: int\n    name: str\n    status: str = 'active'",
+      "notes": "",
+      "tags": [
+        "dataclass"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1771454965025,
+      "updatedAt": 1771541365025
+    },
+    {
+      "id": "python-2",
+      "bookId": "book-python",
+      "title": "Fetch product from API",
+      "language": "Python",
+      "code": "import requests\n\ndef get_product(product_id):\n    resp = requests.get(f'https://api.example.com/products/{product_id}')\n    resp.raise_for_status()\n    return resp.json()",
+      "notes": "",
+      "tags": [
+        "requests",
+        "api"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1775861365025,
+      "updatedAt": 1775861365025
+    },
+    {
+      "id": "python-3",
+      "bookId": "book-python",
+      "title": "Read invoices from JSON file",
+      "language": "Python",
+      "code": "import json\n\nwith open('invoices.json') as f:\n    invoices = json.load(f)",
+      "notes": "",
+      "tags": [
+        "file-io",
+        "json"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1783464565025,
+      "updatedAt": 1784069365025
+    },
+    {
+      "id": "python-4",
+      "bookId": "book-python",
+      "title": "Timing decorator for customer processing",
+      "language": "Python",
+      "code": "import time\nfrom functools import wraps\n\ndef timed(fn):\n    @wraps(fn)\n    def wrapper(*args, **kwargs):\n        start = time.perf_counter()\n        result = fn(*args, **kwargs)\n        print(f'{fn.__name__} took {time.perf_counter() - start:.3f}s')\n        return result\n    return wrapper",
+      "notes": "Sanitize any user-supplied input before running this.",
+      "tags": [
+        "decorator"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1771886965025,
+      "updatedAt": 1772405365025
+    },
+    {
+      "id": "python-5",
+      "bookId": "book-python",
+      "title": "CLI to list employees",
+      "language": "Python",
+      "code": "import argparse\n\nparser = argparse.ArgumentParser()\nparser.add_argument('--status', default='active')\nargs = parser.parse_args()\nprint(f'Listing employees with status={args.status}')",
+      "notes": "",
+      "tags": [
+        "argparse",
+        "cli"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1783982965025,
+      "updatedAt": 1784501365025
+    },
+    {
+      "id": "python-6",
+      "bookId": "book-python",
+      "title": "Inventory class",
+      "language": "Python",
+      "code": "class Inventory:\n    def __init__(self, id, name):\n        self.id = id\n        self.name = name\n\n    def __repr__(self):\n        return f'Inventory({self.id}, {self.name!r})'",
+      "notes": "",
+      "tags": [
+        "oop"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1760827765025,
+      "updatedAt": 1762382965025
+    },
+    {
+      "id": "python-7",
+      "bookId": "book-python",
+      "title": "Custom exception for payment errors",
+      "language": "Python",
+      "code": "class PaymentNotFoundError(Exception):\n    pass\n\ndef get_payment(payment_id):\n    try:\n        return db.lookup(payment_id)\n    except KeyError:\n        raise PaymentNotFoundError(f'Payment {payment_id} not found')",
+      "notes": "",
+      "tags": [
+        "error-handling"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1761346165026,
+      "updatedAt": 1762814965026
+    },
+    {
+      "id": "python-8",
+      "bookId": "book-python",
+      "title": "Generator for paginated tickets",
+      "language": "Python",
+      "code": "def iter_tickets(page_size=50):\n    offset = 0\n    while True:\n        page = fetch_tickets(offset, page_size)\n        if not page:\n            return\n        yield from page\n        offset += page_size",
+      "notes": "Copied from the internal runbook.",
+      "tags": [
+        "generator"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1766184565026,
+      "updatedAt": 1767048565026
+    },
+    {
+      "id": "python-9",
+      "bookId": "book-python",
+      "title": "Sort sessions by created date",
+      "language": "Python",
+      "code": "sessions.sort(key=lambda x: x['created_at'], reverse=True)",
+      "notes": "",
+      "tags": [
+        "sorting"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1785019765026,
+      "updatedAt": 1785970165026
+    },
+    {
+      "id": "python-10",
+      "bookId": "book-python",
+      "title": "Count log statuses",
+      "language": "Python",
+      "code": "from collections import Counter\n\nstatus_counts = Counter(x['status'] for x in logs)\nprint(status_counts.most_common())",
+      "notes": "",
+      "tags": [
+        "collections"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1774910965026,
+      "updatedAt": 1774910965026
+    },
+    {
+      "id": "python-11",
+      "bookId": "book-python",
+      "title": "Read reports from CSV",
+      "language": "Python",
+      "code": "import csv\n\nwith open('reports.csv') as f:\n    reader = csv.DictReader(f)\n    reports = list(reader)",
+      "notes": "",
+      "tags": [
+        "csv",
+        "file-io"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1774651765026,
+      "updatedAt": 1775083765026
+    },
+    {
+      "id": "python-12",
+      "bookId": "book-python",
+      "title": "Write accounts to JSON",
+      "language": "Python",
+      "code": "import json\n\nwith open('accounts.json', 'w') as f:\n    json.dump(accounts, f, indent=2)",
+      "notes": "Sanitize any user-supplied input before running this.",
+      "tags": [
+        "json",
+        "file-io"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1759272565026,
+      "updatedAt": 1759618165026
+    },
+    {
+      "id": "python-13",
+      "bookId": "book-python",
+      "title": "Strip non-alphanumeric chars from transaction name",
+      "language": "Python",
+      "code": "import re\n\nclean_name = re.sub(r'[^a-zA-Z0-9 ]', '', transaction_name)",
+      "notes": "",
+      "tags": [
+        "regex"
+      ],
+      "pinned": false,
+      "archived": false,
+      "createdAt": 1783464565026,
+      "updatedAt": 1784155765026
+    },
+    {
+      "id": "python-14",
+      "bookId": "book-python",
+      "title": "Pair subscription ids with names",
+      "language": "Python",
+      "code": "for i, (subscription_id, name) in enumerate(zip(subscription_ids, subscription_names)):\n    print(i, subscription_id, name)",
+      "notes": "",
+      "tags": [
+        "enumerate",
+        "zip"
+      ],
+      "pinned": false,
+      "archived": true,
+      "createdAt": 1776984565026,
+      "updatedAt": 1777675765026
+    }
+  ]
+}

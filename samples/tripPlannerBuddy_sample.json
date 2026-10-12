@@ -1,0 +1,131 @@
+{
+  "trips": [
+    {
+      "name": "Tokyo Family Trip",
+      "description": "First overseas trip with the baby — keeping the pace slow with plenty of stroller-friendly stops.",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-13",
+      "hotels": [
+        {
+          "name": "Shinjuku Gracery Hotel",
+          "location": "1 Chome Shinjuku, Tokyo",
+          "checkIn": "2026-10-10T15:00",
+          "checkOut": "2026-10-12T11:00",
+          "parkingLocation": "Hotel basement garage, entrance on the west side, about ¥2,000/night.",
+          "specialNote": "Booking ref #JP-88213. Asked for a high floor, away from the elevator.",
+          "babyNote": "Requested a crib in advance — confirmed available. Kettle in room for bottle prep."
+        },
+        {
+          "name": "Asakusa View Hotel",
+          "location": "Asakusa, Tokyo",
+          "checkIn": "2026-10-12T15:00",
+          "checkOut": "2026-10-13T10:00",
+          "specialNote": "Breakfast included. Ask front desk for a late checkout if the morning goes long.",
+          "babyNote": "Quiet floor requested. Elevator to lobby is right next to the room."
+        }
+      ],
+      "luggage": {
+        "checked": [
+          { "text": "Clothes", "packed": true },
+          { "text": "Shoes", "packed": true },
+          { "text": "Toiletries kit", "packed": false },
+          { "text": "Travel adapter", "packed": false }
+        ],
+        "everyday": [
+          { "text": "Passport & ID", "packed": true },
+          { "text": "Wallet & cards", "packed": true },
+          { "text": "Phone", "packed": false },
+          { "text": "Portable charger", "packed": false }
+        ],
+        "power": [
+          { "text": "Phone charger", "packed": true },
+          { "text": "Universal travel adapter", "packed": false },
+          { "text": "Power bank", "packed": false }
+        ],
+        "baby": [
+          { "text": "Diapers", "packed": true },
+          { "text": "Baby wipes", "packed": true },
+          { "text": "Formula / milk powder", "packed": false },
+          { "text": "Stroller", "packed": false },
+          { "text": "Baby carrier", "packed": false },
+          { "text": "Pacifier", "packed": false }
+        ]
+      },
+      "days": [
+        {
+          "date": "2026-10-10",
+          "label": "Arrival day",
+          "entries": [
+            {
+              "heading": "Airport Transfer",
+              "startTime": "14:00",
+              "endTime": "15:30",
+              "startLocation": "Narita Airport",
+              "endLocation": "Shinjuku Gracery Hotel",
+              "expectNote": "Airport limousine bus takes about 90 minutes depending on traffic. Buy tickets at the counter after baggage claim.",
+              "ticketNote": "Airport Limousine Bus — buy on arrival, no need to book ahead.",
+              "parkingNote": "",
+              "babyNote": "Bring a bottle for the ride, baby will likely be overtired from the flight."
+            },
+            {
+              "heading": "Dinner at Omoide Yokocho",
+              "startTime": "18:00",
+              "endTime": "19:30",
+              "startLocation": "Hotel",
+              "endLocation": "Omoide Yokocho",
+              "expectNote": "Narrow alleys, can be smoky and crowded — good for a quick look rather than a full dinner with the stroller.",
+              "ticketNote": "",
+              "parkingNote": "No parking needed, walking distance from hotel.",
+              "babyNote": "Stroller access is tight in the alley — consider babywearing instead."
+            }
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "label": "Ueno & Asakusa",
+          "entries": [
+            {
+              "heading": "Ueno Zoo",
+              "startTime": "09:30",
+              "endTime": "12:00",
+              "startLocation": "Hotel",
+              "endLocation": "Ueno Zoo",
+              "expectNote": "Panda enclosure gets busy after 10am. Plenty of shaded benches for feeding stops.",
+              "ticketNote": "Buy tickets online in advance to skip the entrance line.",
+              "parkingNote": "",
+              "babyNote": "Nursing room and diaper-change station near the main gate."
+            },
+            {
+              "heading": "Senso-ji Temple",
+              "startTime": "14:00",
+              "endTime": "17:00",
+              "startLocation": "Ueno",
+              "endLocation": "Senso-ji Temple, Asakusa",
+              "expectNote": "Nakamise shopping street is fully pedestrian and stroller-friendly, but very crowded on weekends.",
+              "ticketNote": "Free entry to the temple grounds.",
+              "parkingNote": "",
+              "babyNote": "Bring a sun hat — the main approach street has little shade."
+            }
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "label": "TeamLab & check-out",
+          "entries": [
+            {
+              "heading": "teamLab Planets",
+              "startTime": "10:00",
+              "endTime": "13:00",
+              "startLocation": "Asakusa View Hotel",
+              "endLocation": "teamLab Planets",
+              "expectNote": "Some rooms involve wading through shallow water — bring a spare change of clothes for everyone.",
+              "ticketNote": "Timed-entry tickets sell out days ahead — book online now.",
+              "parkingNote": "No dedicated parking; nearest paid lot is a 5 minute walk, about ¥600/hour.",
+              "babyNote": "Strollers are not allowed inside — bring the baby carrier instead."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

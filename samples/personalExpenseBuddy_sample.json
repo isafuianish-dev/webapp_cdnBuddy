@@ -1,0 +1,1261 @@
+{
+  "budgets": [
+    {
+      "id": "budget-family",
+      "name": "Family",
+      "description": "Shared household spending for the whole family — groceries, kids' school costs, health, and outings.",
+      "createdAt": "2026-06-01",
+      "members": [
+        {
+          "id": "member-f1",
+          "name": "Rohan Sharma",
+          "role": "Self"
+        },
+        {
+          "id": "member-f2",
+          "name": "Priya Sharma",
+          "role": "Spouse"
+        },
+        {
+          "id": "member-f3",
+          "name": "Aarav Sharma",
+          "role": "Child"
+        },
+        {
+          "id": "member-f4",
+          "name": "Meera Sharma",
+          "role": "Child"
+        }
+      ],
+      "expenses": [
+        {
+          "id": "expense-1",
+          "category": "Groceries",
+          "description": "Weekly grocery run",
+          "amount": 157.13,
+          "date": "2026-06-01",
+          "paidBy": "member-f2",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-2",
+          "category": "Misc",
+          "description": "Miscellaneous purchase",
+          "amount": 33.54,
+          "date": "2026-06-01",
+          "paidBy": "member-f1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-3",
+          "category": "Groceries",
+          "description": "Weekly grocery run",
+          "amount": 136.73,
+          "date": "2026-06-02",
+          "paidBy": "member-f3",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-4",
+          "category": "Groceries",
+          "description": "Weekly grocery run",
+          "amount": 130.86,
+          "date": "2026-06-03",
+          "paidBy": "member-f1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-5",
+          "category": "Education",
+          "description": "School supplies",
+          "amount": 25.31,
+          "date": "2026-06-03",
+          "paidBy": "member-f3",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-6",
+          "category": "Health",
+          "description": "Pharmacy purchase",
+          "amount": 13.18,
+          "date": "2026-06-04",
+          "paidBy": "member-f1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-7",
+          "category": "Misc",
+          "description": "Miscellaneous purchase",
+          "amount": 38.31,
+          "date": "2026-06-04",
+          "paidBy": "member-f2",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-8",
+          "category": "Education",
+          "description": "Tutoring session",
+          "amount": 46.05,
+          "date": "2026-06-05",
+          "paidBy": "member-f2",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-9",
+          "category": "Entertainment",
+          "description": "Movie night",
+          "amount": 37.77,
+          "date": "2026-06-07",
+          "paidBy": "member-f3",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-10",
+          "category": "Family",
+          "description": "Toys and games",
+          "amount": 45.61,
+          "date": "2026-06-08",
+          "paidBy": "member-f3",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-11",
+          "category": "Groceries",
+          "description": "Weekly grocery run",
+          "amount": 89.39,
+          "date": "2026-06-09",
+          "paidBy": "member-f1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-12",
+          "category": "Health",
+          "description": "Pediatrician visit",
+          "amount": 51.43,
+          "date": "2026-06-09",
+          "paidBy": "member-f2",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-13",
+          "category": "Health",
+          "description": "Pharmacy purchase",
+          "amount": 22.67,
+          "date": "2026-06-09",
+          "paidBy": "member-f4",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-14",
+          "category": "Education",
+          "description": "School tuition fee",
+          "amount": 352.28,
+          "date": "2026-06-11",
+          "paidBy": "member-f2",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-15",
+          "category": "Family",
+          "description": "Kids' clothing",
+          "amount": 34.93,
+          "date": "2026-06-11",
+          "paidBy": "member-f4",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-16",
+          "category": "Family",
+          "description": "Toys and games",
+          "amount": 28.21,
+          "date": "2026-06-11",
+          "paidBy": "member-f4",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-17",
+          "category": "Groceries",
+          "description": "Weekly grocery run",
+          "amount": 71.24,
+          "date": "2026-06-15",
+          "paidBy": "member-f1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-18",
+          "category": "Dining",
+          "description": "Family dinner out",
+          "amount": 27.98,
+          "date": "2026-06-15",
+          "paidBy": "member-f3",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-19",
+          "category": "Subscriptions",
+          "description": "Streaming service",
+          "amount": 9.21,
+          "date": "2026-06-15",
+          "paidBy": "member-f1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-20",
+          "category": "Transport",
+          "description": "Fuel",
+          "amount": 43.38,
+          "date": "2026-06-16",
+          "paidBy": "member-f1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-21",
+          "category": "Groceries",
+          "description": "Supermarket stock-up",
+          "amount": 180.76,
+          "date": "2026-06-22",
+          "paidBy": "member-f3",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-22",
+          "category": "Family",
+          "description": "Toys and games",
+          "amount": 49.59,
+          "date": "2026-06-22",
+          "paidBy": "member-f1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-23",
+          "category": "Groceries",
+          "description": "Supermarket stock-up",
+          "amount": 136.67,
+          "date": "2026-06-23",
+          "paidBy": "member-f3",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-24",
+          "category": "Dining",
+          "description": "Weekend brunch",
+          "amount": 19.88,
+          "date": "2026-06-23",
+          "paidBy": "member-f2",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-25",
+          "category": "Transport",
+          "description": "Fuel",
+          "amount": 38.92,
+          "date": "2026-06-24",
+          "paidBy": "member-f3",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-26",
+          "category": "Groceries",
+          "description": "Supermarket stock-up",
+          "amount": 103.29,
+          "date": "2026-06-25",
+          "paidBy": "member-f1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-27",
+          "category": "Dining",
+          "description": "Family dinner out",
+          "amount": 59.85,
+          "date": "2026-06-25",
+          "paidBy": "member-f1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-28",
+          "category": "Dining",
+          "description": "Weekend brunch",
+          "amount": 40.99,
+          "date": "2026-06-25",
+          "paidBy": "member-f3",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-29",
+          "category": "Education",
+          "description": "School tuition fee",
+          "amount": 240.85,
+          "date": "2026-06-25",
+          "paidBy": "member-f3",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-30",
+          "category": "Family",
+          "description": "Kids' clothing",
+          "amount": 63.77,
+          "date": "2026-06-25",
+          "paidBy": "member-f4",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-31",
+          "category": "Shopping",
+          "description": "Household essentials",
+          "amount": 62.78,
+          "date": "2026-06-26",
+          "paidBy": "member-f3",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-32",
+          "category": "Health",
+          "description": "Pharmacy purchase",
+          "amount": 36.15,
+          "date": "2026-06-28",
+          "paidBy": "member-f4",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-33",
+          "category": "Family",
+          "description": "Kids' clothing",
+          "amount": 63.73,
+          "date": "2026-07-02",
+          "paidBy": "member-f3",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-34",
+          "category": "Transport",
+          "description": "School bus fee",
+          "amount": 40.0,
+          "date": "2026-07-03",
+          "paidBy": "member-f2",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-35",
+          "category": "Education",
+          "description": "Tutoring session",
+          "amount": 38.51,
+          "date": "2026-07-04",
+          "paidBy": "member-f4",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-36",
+          "category": "Transport",
+          "description": "Fuel",
+          "amount": 55.96,
+          "date": "2026-07-04",
+          "paidBy": "member-f1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-37",
+          "category": "Transport",
+          "description": "Fuel",
+          "amount": 38.0,
+          "date": "2026-07-04",
+          "paidBy": "member-f1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-38",
+          "category": "Entertainment",
+          "description": "Weekend outing",
+          "amount": 88.92,
+          "date": "2026-07-05",
+          "paidBy": "member-f2",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-39",
+          "category": "Subscriptions",
+          "description": "Streaming service",
+          "amount": 12.38,
+          "date": "2026-07-06",
+          "paidBy": "member-f4",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-40",
+          "category": "Groceries",
+          "description": "Weekly grocery run",
+          "amount": 141.2,
+          "date": "2026-07-07",
+          "paidBy": "member-f1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-41",
+          "category": "Health",
+          "description": "Pharmacy purchase",
+          "amount": 36.07,
+          "date": "2026-07-07",
+          "paidBy": "member-f3",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-42",
+          "category": "Transport",
+          "description": "School bus fee",
+          "amount": 40.0,
+          "date": "2026-07-07",
+          "paidBy": "member-f2",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-43",
+          "category": "Shopping",
+          "description": "Household essentials",
+          "amount": 77.86,
+          "date": "2026-07-07",
+          "paidBy": "member-f2",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-44",
+          "category": "Education",
+          "description": "Tutoring session",
+          "amount": 66.53,
+          "date": "2026-07-09",
+          "paidBy": "member-f3",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-45",
+          "category": "Groceries",
+          "description": "Weekly grocery run",
+          "amount": 86.45,
+          "date": "2026-07-10",
+          "paidBy": "member-f3",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-46",
+          "category": "Misc",
+          "description": "Miscellaneous purchase",
+          "amount": 23.52,
+          "date": "2026-07-10",
+          "paidBy": "member-f2",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-47",
+          "category": "Education",
+          "description": "School supplies",
+          "amount": 59.53,
+          "date": "2026-07-13",
+          "paidBy": "member-f2",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-48",
+          "category": "Health",
+          "description": "Pediatrician visit",
+          "amount": 110.77,
+          "date": "2026-07-14",
+          "paidBy": "member-f4",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-49",
+          "category": "Dining",
+          "description": "Weekend brunch",
+          "amount": 35.11,
+          "date": "2026-07-17",
+          "paidBy": "member-f1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-50",
+          "category": "Groceries",
+          "description": "Weekly grocery run",
+          "amount": 127.35,
+          "date": "2026-07-18",
+          "paidBy": "member-f4",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-51",
+          "category": "Dining",
+          "description": "Family dinner out",
+          "amount": 62.53,
+          "date": "2026-07-18",
+          "paidBy": "member-f1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-52",
+          "category": "Dining",
+          "description": "Family dinner out",
+          "amount": 77.46,
+          "date": "2026-07-19",
+          "paidBy": "member-f4",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-53",
+          "category": "Entertainment",
+          "description": "Movie night",
+          "amount": 20.11,
+          "date": "2026-07-19",
+          "paidBy": "member-f3",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-54",
+          "category": "Groceries",
+          "description": "Supermarket stock-up",
+          "amount": 110.21,
+          "date": "2026-07-21",
+          "paidBy": "member-f3",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-55",
+          "category": "Entertainment",
+          "description": "Movie night",
+          "amount": 54.02,
+          "date": "2026-07-21",
+          "paidBy": "member-f2",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-56",
+          "category": "Entertainment",
+          "description": "Weekend outing",
+          "amount": 40.7,
+          "date": "2026-07-21",
+          "paidBy": "member-f2",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-57",
+          "category": "Transport",
+          "description": "Fuel",
+          "amount": 53.88,
+          "date": "2026-07-22",
+          "paidBy": "member-f1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-58",
+          "category": "Dining",
+          "description": "Family dinner out",
+          "amount": 60.88,
+          "date": "2026-07-26",
+          "paidBy": "member-f3",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-59",
+          "category": "Dining",
+          "description": "Weekend brunch",
+          "amount": 28.6,
+          "date": "2026-07-26",
+          "paidBy": "member-f3",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-60",
+          "category": "Education",
+          "description": "School supplies",
+          "amount": 45.81,
+          "date": "2026-07-26",
+          "paidBy": "member-f1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-61",
+          "category": "Dining",
+          "description": "Family dinner out",
+          "amount": 89.04,
+          "date": "2026-07-27",
+          "paidBy": "member-f2",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-62",
+          "category": "Family",
+          "description": "Birthday party supplies",
+          "amount": 146.82,
+          "date": "2026-07-28",
+          "paidBy": "member-f1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-63",
+          "category": "Shopping",
+          "description": "Household essentials",
+          "amount": 35.9,
+          "date": "2026-07-28",
+          "paidBy": "member-f4",
+          "paymentMethod": "Credit Card"
+        }
+      ],
+      "categoryLimits": {
+        "Groceries": 700,
+        "Dining": 250,
+        "Education": 900,
+        "Health": 300,
+        "Family": 350,
+        "Entertainment": 150,
+        "Transport": 300
+      }
+    },
+    {
+      "id": "budget-home",
+      "name": "Home",
+      "description": "Rent, utilities, and everything that keeps the household running.",
+      "createdAt": "2026-06-01",
+      "members": [
+        {
+          "id": "member-h1",
+          "name": "Rohan Sharma",
+          "role": "Self"
+        },
+        {
+          "id": "member-h2",
+          "name": "Priya Sharma",
+          "role": "Spouse"
+        }
+      ],
+      "expenses": [
+        {
+          "id": "expense-64",
+          "category": "Utilities",
+          "description": "Water bill",
+          "amount": 38.7,
+          "date": "2026-06-02",
+          "paidBy": "member-h1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-65",
+          "category": "Misc",
+          "description": "Home insurance premium",
+          "amount": 73.16,
+          "date": "2026-06-02",
+          "paidBy": "member-h1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-66",
+          "category": "Misc",
+          "description": "Appliance repair",
+          "amount": 50.26,
+          "date": "2026-06-07",
+          "paidBy": "member-h2",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-67",
+          "category": "Utilities",
+          "description": "Gas bill",
+          "amount": 48.63,
+          "date": "2026-06-08",
+          "paidBy": "member-h2",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-68",
+          "category": "Utilities",
+          "description": "Electricity bill",
+          "amount": 72.38,
+          "date": "2026-06-10",
+          "paidBy": "member-h1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-69",
+          "category": "Misc",
+          "description": "Cleaning supplies",
+          "amount": 13.31,
+          "date": "2026-06-12",
+          "paidBy": "member-h1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-70",
+          "category": "Shopping",
+          "description": "Furniture piece",
+          "amount": 117.28,
+          "date": "2026-06-13",
+          "paidBy": "member-h1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-71",
+          "category": "Utilities",
+          "description": "Internet bill",
+          "amount": 45.0,
+          "date": "2026-06-17",
+          "paidBy": "member-h1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-72",
+          "category": "Transport",
+          "description": "Parking fee",
+          "amount": 23.36,
+          "date": "2026-06-18",
+          "paidBy": "member-h2",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-73",
+          "category": "Subscriptions",
+          "description": "Streaming bundle",
+          "amount": 19.19,
+          "date": "2026-06-19",
+          "paidBy": "member-h2",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-74",
+          "category": "Shopping",
+          "description": "Home decor",
+          "amount": 42.13,
+          "date": "2026-06-25",
+          "paidBy": "member-h1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-75",
+          "category": "Housing",
+          "description": "Monthly rent",
+          "amount": 1200.0,
+          "date": "2026-06-26",
+          "paidBy": "member-h2",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-76",
+          "category": "Misc",
+          "description": "Pest control service",
+          "amount": 74.47,
+          "date": "2026-06-26",
+          "paidBy": "member-h1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-77",
+          "category": "Misc",
+          "description": "Cleaning supplies",
+          "amount": 13.94,
+          "date": "2026-06-27",
+          "paidBy": "member-h2",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-78",
+          "category": "Utilities",
+          "description": "Internet bill",
+          "amount": 45.0,
+          "date": "2026-07-03",
+          "paidBy": "member-h1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-79",
+          "category": "Transport",
+          "description": "Parking fee",
+          "amount": 28.64,
+          "date": "2026-07-04",
+          "paidBy": "member-h1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-80",
+          "category": "Subscriptions",
+          "description": "Streaming bundle",
+          "amount": 24.35,
+          "date": "2026-07-07",
+          "paidBy": "member-h2",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-81",
+          "category": "Shopping",
+          "description": "Furniture piece",
+          "amount": 221.21,
+          "date": "2026-07-10",
+          "paidBy": "member-h2",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-82",
+          "category": "Misc",
+          "description": "Cleaning supplies",
+          "amount": 31.98,
+          "date": "2026-07-12",
+          "paidBy": "member-h2",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-83",
+          "category": "Utilities",
+          "description": "Water bill",
+          "amount": 34.6,
+          "date": "2026-07-17",
+          "paidBy": "member-h1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-84",
+          "category": "Utilities",
+          "description": "Electricity bill",
+          "amount": 137.5,
+          "date": "2026-07-19",
+          "paidBy": "member-h1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-85",
+          "category": "Utilities",
+          "description": "Gas bill",
+          "amount": 29.2,
+          "date": "2026-07-19",
+          "paidBy": "member-h1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-86",
+          "category": "Shopping",
+          "description": "Home decor",
+          "amount": 20.65,
+          "date": "2026-07-20",
+          "paidBy": "member-h1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-87",
+          "category": "Housing",
+          "description": "Monthly rent",
+          "amount": 1200.0,
+          "date": "2026-07-23",
+          "paidBy": "member-h2",
+          "paymentMethod": "Credit Card"
+        }
+      ],
+      "categoryLimits": {
+        "Housing": 1200,
+        "Utilities": 250,
+        "Shopping": 250,
+        "Misc": 150
+      }
+    },
+    {
+      "id": "budget-personal",
+      "name": "Personal",
+      "description": "Day-to-day personal spending — coffee, hobbies, and little treats.",
+      "createdAt": "2026-06-01",
+      "members": [
+        {
+          "id": "member-p1",
+          "name": "Priya Sharma",
+          "role": "Self"
+        }
+      ],
+      "expenses": [
+        {
+          "id": "expense-88",
+          "category": "Dining",
+          "description": "Coffee shop",
+          "amount": 6.8,
+          "date": "2026-06-04",
+          "paidBy": "member-p1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-89",
+          "category": "Dining",
+          "description": "Coffee shop",
+          "amount": 6.91,
+          "date": "2026-06-05",
+          "paidBy": "member-p1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-90",
+          "category": "Dining",
+          "description": "Lunch with friends",
+          "amount": 28.18,
+          "date": "2026-06-07",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-91",
+          "category": "Shopping",
+          "description": "Clothing purchase",
+          "amount": 73.72,
+          "date": "2026-06-08",
+          "paidBy": "member-p1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-92",
+          "category": "Subscriptions",
+          "description": "Music streaming",
+          "amount": 10.0,
+          "date": "2026-06-08",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-93",
+          "category": "Entertainment",
+          "description": "Concert tickets",
+          "amount": 80.54,
+          "date": "2026-06-09",
+          "paidBy": "member-p1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-94",
+          "category": "Health",
+          "description": "Yoga class",
+          "amount": 18.98,
+          "date": "2026-06-09",
+          "paidBy": "member-p1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-95",
+          "category": "Transport",
+          "description": "Ride share",
+          "amount": 9.96,
+          "date": "2026-06-09",
+          "paidBy": "member-p1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-96",
+          "category": "Subscriptions",
+          "description": "Gym membership",
+          "amount": 30.0,
+          "date": "2026-06-12",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-97",
+          "category": "Shopping",
+          "description": "Clothing purchase",
+          "amount": 77.7,
+          "date": "2026-06-14",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-98",
+          "category": "Misc",
+          "description": "Gift for a friend",
+          "amount": 50.39,
+          "date": "2026-06-14",
+          "paidBy": "member-p1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-99",
+          "category": "Dining",
+          "description": "Coffee shop",
+          "amount": 4.81,
+          "date": "2026-06-15",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-100",
+          "category": "Entertainment",
+          "description": "Book purchase",
+          "amount": 8.46,
+          "date": "2026-06-16",
+          "paidBy": "member-p1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-101",
+          "category": "Dining",
+          "description": "Coffee shop",
+          "amount": 8.52,
+          "date": "2026-06-18",
+          "paidBy": "member-p1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-102",
+          "category": "Transport",
+          "description": "Ride share",
+          "amount": 24.68,
+          "date": "2026-06-18",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-103",
+          "category": "Dining",
+          "description": "Lunch with friends",
+          "amount": 19.31,
+          "date": "2026-06-20",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-104",
+          "category": "Transport",
+          "description": "Ride share",
+          "amount": 8.65,
+          "date": "2026-06-20",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-105",
+          "category": "Health",
+          "description": "Yoga class",
+          "amount": 17.79,
+          "date": "2026-06-21",
+          "paidBy": "member-p1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-106",
+          "category": "Entertainment",
+          "description": "Book purchase",
+          "amount": 9.91,
+          "date": "2026-06-23",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-107",
+          "category": "Shopping",
+          "description": "Skincare products",
+          "amount": 35.1,
+          "date": "2026-06-24",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-108",
+          "category": "Dining",
+          "description": "Lunch with friends",
+          "amount": 13.85,
+          "date": "2026-06-25",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-109",
+          "category": "Dining",
+          "description": "Coffee shop",
+          "amount": 5.54,
+          "date": "2026-06-26",
+          "paidBy": "member-p1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-110",
+          "category": "Shopping",
+          "description": "Skincare products",
+          "amount": 42.73,
+          "date": "2026-06-26",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-111",
+          "category": "Transport",
+          "description": "Ride share",
+          "amount": 13.63,
+          "date": "2026-07-01",
+          "paidBy": "member-p1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-112",
+          "category": "Dining",
+          "description": "Coffee shop",
+          "amount": 6.15,
+          "date": "2026-07-02",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-113",
+          "category": "Dining",
+          "description": "Coffee shop",
+          "amount": 8.86,
+          "date": "2026-07-02",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-114",
+          "category": "Subscriptions",
+          "description": "Music streaming",
+          "amount": 10.0,
+          "date": "2026-07-07",
+          "paidBy": "member-p1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-115",
+          "category": "Transport",
+          "description": "Ride share",
+          "amount": 11.04,
+          "date": "2026-07-09",
+          "paidBy": "member-p1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-116",
+          "category": "Dining",
+          "description": "Coffee shop",
+          "amount": 4.18,
+          "date": "2026-07-12",
+          "paidBy": "member-p1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-117",
+          "category": "Dining",
+          "description": "Coffee shop",
+          "amount": 6.76,
+          "date": "2026-07-14",
+          "paidBy": "member-p1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-118",
+          "category": "Misc",
+          "description": "Gift for a friend",
+          "amount": 42.28,
+          "date": "2026-07-17",
+          "paidBy": "member-p1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-119",
+          "category": "Dining",
+          "description": "Lunch with friends",
+          "amount": 24.28,
+          "date": "2026-07-22",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-120",
+          "category": "Health",
+          "description": "Yoga class",
+          "amount": 20.09,
+          "date": "2026-07-22",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-121",
+          "category": "Dining",
+          "description": "Coffee shop",
+          "amount": 4.38,
+          "date": "2026-07-23",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-122",
+          "category": "Shopping",
+          "description": "Clothing purchase",
+          "amount": 26.61,
+          "date": "2026-07-24",
+          "paidBy": "member-p1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-123",
+          "category": "Transport",
+          "description": "Ride share",
+          "amount": 15.39,
+          "date": "2026-07-24",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-124",
+          "category": "Health",
+          "description": "Yoga class",
+          "amount": 23.64,
+          "date": "2026-07-25",
+          "paidBy": "member-p1",
+          "paymentMethod": "Cash"
+        },
+        {
+          "id": "expense-125",
+          "category": "Shopping",
+          "description": "Clothing purchase",
+          "amount": 81.2,
+          "date": "2026-07-26",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-126",
+          "category": "Shopping",
+          "description": "Skincare products",
+          "amount": 42.92,
+          "date": "2026-07-26",
+          "paidBy": "member-p1",
+          "paymentMethod": "Credit Card"
+        },
+        {
+          "id": "expense-127",
+          "category": "Subscriptions",
+          "description": "Gym membership",
+          "amount": 30.0,
+          "date": "2026-07-26",
+          "paidBy": "member-p1",
+          "paymentMethod": "Debit Card"
+        },
+        {
+          "id": "expense-128",
+          "category": "Entertainment",
+          "description": "Book purchase",
+          "amount": 10.67,
+          "date": "2026-07-27",
+          "paidBy": "member-p1",
+          "paymentMethod": "Bank Transfer"
+        },
+        {
+          "id": "expense-129",
+          "category": "Dining",
+          "description": "Lunch with friends",
+          "amount": 22.08,
+          "date": "2026-07-28",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        },
+        {
+          "id": "expense-130",
+          "category": "Entertainment",
+          "description": "Book purchase",
+          "amount": 9.3,
+          "date": "2026-07-28",
+          "paidBy": "member-p1",
+          "paymentMethod": "Other"
+        }
+      ],
+      "categoryLimits": {
+        "Dining": 150,
+        "Shopping": 150,
+        "Entertainment": 100,
+        "Subscriptions": 80
+      }
+    }
+  ],
+  "selectedBudgetId": null
+}
